@@ -1,0 +1,549 @@
+<html>
+	<head>
+		<title>Prectise</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+			
+<link rel="stylesheet" href="page.css">
+<link rel="stylesheet" href="link/css/bootstrap.css">
+<link rel="stylesheet" href="link/aos.css">
+<link rel="stylesheet" href="link/owl/owl.carousel.min.css">
+<link rel="stylesheet" href="link/owl/owl.theme.default.min.css">
+<link rel="stylesheet" href="link/ICON/fontawesome.min.css">
+<link rel="stylesheet" href="link/font/css/all.css">
+ 
+<script src="link/jquary.js"></script>
+<script src="link/owl/jquary.js"></script>
+<script src="link/owl/owl.carousel.min.js"></script>
+<script src="link/popper-1.js"></script>
+<script src="link/js/bootstrap.js"></script>
+<script src="link/aos.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+</head>
+<Body>
+<style>
+
+.navbar{background-color:#093041;}
+.nav-item{padding:6px;}
+.carousel-item img{height:auto; width:100%; }
+.a{position:absolute; right:100px; top:100px;}
+.form-box{Height:430px; width:250px; background:#093041; position:absolute; right:10px; top:15px; border-radius:20px 20px 20px 20px; color:white;}
+.head{text-align:center; padding:20px;}
+.background{Background:#093942; color:white;}
+.img{Height:150px; width:100%;}
+.fa{box-border:2px; Height:100px; width:100px;}
+.aaaa{ border-style: solid; border-width: 1px; height:60px; border-color:white;}
+.back{background-color:white;}
+.card-text{color:black; text-align:center; margin-top:10px;}
+hr{width:100px; height:1px; background:#093041;}
+label{text-align:justify; FONT-SIZE:12px;} 
+.card:hover{box-shadow:1px 2px 5px 1px #acacac;}
+.centr{text-align:center; background:#2d3a42; padding:70px;}
+.box{width:100%; height:250px; position:absolute; top:30%; text-align:center; text-shadow: 2px 3px 5px black;}
+.box h1{color:White; font-size:100px;}
+.box p{color:White; font-size:30px;}
+
+.zoom { background-color: green; transition: transform .2s; /* Animation */  margin: 0 auto; }
+  
+  .zoom1 {  background-color: green; transition: transform .2s; /* Animation */ margin: 0 auto; }
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+@media(max-width:992px)
+{
+	
+	.box{width:100%; height:250px; position:absolute; top:30%; text-align:center;}
+.box h1{color:White; font-size:80px;}
+.box p{color:White; font-size:20px;}
+}
+
+
+@media(max-width:720px)
+{
+	
+	.box{width:100%; height:250px; position:absolute; top:25%; text-align:center;}
+.box h1{color:White; font-size:40px;}
+.box p{color:White; font-size:12px;}
+.logo{height:50%px; Width:50%; padding-bottom:20px;}
+}
+
+@media(max-width:500px)
+{
+	
+	.box{width:100%; height:250px; position:absolute; top:25%; text-align:center;}
+.box h1{color:White; font-size:40px;}
+.box p{color:White; font-size:12px;}
+.logo{height:50%px; Width:50%; padding-bottom:20px;}
+.banners{margin-top:70px;}
+}
+</style>
+<div class="container-fluid P-0">
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+		<!-- Brand -->
+			<a class="navbar-brand" href="#"><img src="logo.png" width="100%" Height="45px"></a>
+
+		<!-- Toggler/collapsibe Button -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+		<!-- Navbar links -->
+			 <div class="collapse navbar-collapse d-flex-inline justify-content-end" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+				
+				  <li class="nav-item px-1">
+					<a class="nav-link" href="#">Home</a>
+				  </li>
+				  
+				  <li class="nav-item px-1">
+					<a class="nav-link" href="#aboutus" >About</a>
+				  </li>
+				 
+				  <li class="nav-item px-1">
+					<a class="nav-link" href="#Amenities">Amenities</a>
+				  </li>
+				  
+				  <li class="nav-item px-1">
+					<a class="nav-link" href="#Gallery">Gallery</a>
+				  </li>
+				  
+				  <li class="nav-item px-1">
+					<a class="nav-link" href="#Location Advantage">Location Advantage</a>
+				  </li>
+				  
+				  <li class="nav-item px-1">
+					<a class="nav-link" href="#Our project">Our project</a>
+				  </li>
+				  
+				  <li class="nav-item px-1">
+					<a class="nav-link" href="#Floor plan">Floor plan</a>
+				  </li>
+				  
+				</ul>
+			</div>
+ 
+	</nav>
+</div>
+  
+ <!-- header close------------------------------------------------------------------------------------------------------------------------------------->
+ 
+ 
+ 
+ <!-- Banner------------------------------------------------------------------------------------------------------------------------------------------->
+ 
+ 
+ <div class="container-fluid p-0 banners">
+	
+	<div id="demo" class="carousel slide" data-ride="carousel">
+
+	 <!-- Indicators -->
+			  <ul class="carousel-indicators">
+				<li data-target="#demo" data-slide-to="0" class="active"></li>
+				<li data-target="#demo" data-slide-to="1"></li>
+				<li data-target="#demo" data-slide-to="2"></li>
+			  </ul>
+
+  <!-- The slideshow -->
+				  <div class="carousel-inner">
+					<div class="carousel-item active">
+					  <img src="a1.jpg" alt="Los Angeles">
+					</div>
+					
+					<div class="carousel-item">
+					  <img src="a2.jpg" alt="Chicago">
+					</div>
+					
+					<div class="carousel-item">
+					  <img src="a3.jpg" alt="New York">
+					</div>
+					
+				  </div>
+
+  <!-- Left and right controls -->
+		  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		  </a>
+		  
+		  <a class="carousel-control-next" href="#demo" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		  </a>
+		  
+		  </div>
+
+
+ <div class="box">
+		<h1> Luxury Floors </h1>
+	<p> Insignia Park, Sector-93, Gurugram </p>
+</div>
+
+
+<!--- About ROF--------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div id="aboutus">
+
+<div class="container-fluid">
+	<div class="container head">
+			<h1> About Us</h1>
+				<p>Lets Know About ROF Group</p>
+													<hr></hr>
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="container PX-5">
+		<div class="row">
+		
+		<div class="col-md-6">
+			<h1>ROF Let's Get Acquainted</h1>
+				<p style="text-align:justify; font-size:14px;"> ROF. It’s not just a name. It is the epitome of perfection and sheer brilliance. Being a trusted developer in private and retail real estate market to purchase, rent or lease high-class properties, it has given properties that speak for themselves and have set new standards in the field of real estate. ROF is an industry pioneer in developing real estate projects ranging from contemporary housing and office spaces to luxurious hotels. Providing state-of-the-art, sensibly valued residential, commercial, hospitality and office spaces is what defines ROF. Knowing that only a leader can change the way market works, we don’t just create structures, but unmatched international standards that everyone looks up to. For more than a decade ROF has stood like a skyscraper amidst all kind of market fluctuations and customer expectations and has never failed to deliver world-class structures with supreme quality and unimaginable facilities.</p>
+		</div>
+
+				<div class="col-md-6 center">
+					<img src="t.JPG" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!--card----------------------------------------------------------------------------------------------------------------------------------------------------> 
+<div id="Amenities">
+
+	<div class="container-fluid background mt-3 p-3">
+		<div class="container head">
+			<h1> Amenities For You</h1>
+				<p>Feature that we are providing to you</p>
+					<hr></hr>
+		</div>
+	</div>
+	
+<div class="container-fluid background">
+	<div class="container px-5">
+		<div class="row">
+			
+			<div class="col-lg-3  p-2">
+				<div class="card">
+					<div class="card-body p-1">
+						<img src="wall.jpg" class="img-fluid">
+							<h5 class="card-text pb-2">Climbing Wall</h5>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-3 p-2">
+				<div class="card">
+					<div class="card-body p-1">
+						<img src="bat.jpg" class="img-fluid">
+							<h5 class="card-text pb-2">Chess Plaza</h5>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-3 p-2">
+				<div class="card">
+					<div class="card-body p-1">
+						<img src="gym.jpg" class="img-fluid">
+							<h5 class="card-text pb-2">Outdoor GYM</h5>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-3 p-2">
+				<div class="card">
+					<div class="card-body p-1">
+						<img src="bd.jpg" class="img-fluid">
+							<h5 class="card-text pb-2">Badminton Court</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			
+			<div class="col-lg-3  p-2">
+				<div class="card">
+					<div class="card-body p-1">
+						<img src="kids play.jpg" class="img-fluid">
+							<h5 class="card-text pb-2">Kids Play Area</h5>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-3 p-2">
+				<div class="card">
+					<div class="card-body p-1">
+						<img src="shoping.jpg" class="img-fluid">
+							<h5 class="card-text pb-2">Shopping Complex</h5>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-3 p-2">
+				<div class="card">
+					<div class="card-body p-1">
+						<img src="run.jpg" class="img-fluid">
+							<h5 class="card-text pb-2">Jogging Track</h5>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-3 p-2">
+				<div class="card">
+					<div class="card-body p-1">
+						<img src="yoga.jpg" class="img-fluid">
+							<h5 class="card-text pb-2">Yoga Lawn</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+
+<!---gallry------------------------------------------------------------------------------------------------------------------------------------------------>
+<div id="Gallery">
+
+<div class="container-fluid bg-light mt-3">
+	<div class="container head">
+			<h1> Gallery</h1>
+				<p>Some Render images of our project</p>
+															<hr></hr>
+	</div>
+</div>
+<div class="container-fluid bg-light">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 p-2">
+				<img src="af.jpg" class="img-fluid zoom1">
+				</div>
+				
+				<div class="col-lg-4 p-2">
+					<img src="ab.jpg" class="img-fluid zoom1">
+				</div>
+			
+				<div class="col-lg-4 p-2">
+						<img src="ac.jpg" class="img-fluid zoom1">
+				</div>
+		</div>
+
+<div class="row">
+	<div class="col-lg-4 p-2">
+		<img src="ad.jpg" class="img-fluid zoom1">
+	</div>
+			
+			<div class="col-lg-4 p-2">
+				<img src="ae.jpg" class="img-fluid zoom1">
+			</div>
+		
+			<div class="col-lg-4 p-2">
+				<img src="aa.jpg" class="img-fluid zoom1">
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<!-- location----------------------------------------------------------------------------------------------------------------------------------------------->
+<div id="Location Advantage">
+
+
+<div class="container-fluid mt-3 bg-light">
+	<div class="container head">
+		<h1> Location Advantage</h1>
+			<p>Get used to more Location Advantage</p>
+			<hr></hr>
+</div>
+		<div class="container-fluid">
+			<div class="container p-0">
+				<div class="row">
+					<div class="col-lg-6">
+						<img src="top.jpg" class="img-fluid p-22 mt-4" style="box-border:10px 10px 10px 10px white;">
+					</div>
+				
+				<div class="col-lg-6 p-3 ">
+					<div class="col-md-12 bg-light ">
+					
+						 <div class="aaaa d-flex mt-1 p-3 background">
+							<i class="fa fa-2x fa-train"></i>
+								<p style="font-size:14px; text-align:center;">5 minutes from upcoming Metro station</p>
+						</div>
+				
+					
+				
+						 <div class="aaaa d-flex p-3 back">
+							<i class="fa fa-2x fa-road"></i>
+								<p style="font-size:14px; text-align:center;">5 minutes drive from Dwarka Expressway & IMT Manesar </p>
+						</div>
+
+					
+					<div class="aaaa d-flex p-3 background">
+							<i class=" fa fa-2x fa-solid fa-car"></i>
+								<p style="font-size:14px; text-align:center;">2 minutes drive from Pataudi Road & NH-8 </p>
+						</div>
+					
+					<div class="aaaa d-flex p-3 back">
+							<i class="fa fa-2x fa-plane"></i>
+								<p style="font-size:14px; text-align:center;">15 minutes drive from IGI Airport </p>
+						</div>
+					
+					<div class="aaaa d-flex p-3 background">
+							<i class="fa fa-2x fa-school"></i>
+								<p style="font-size:14px; text-align:center;">Opposite to RPS School </p>
+						</div>
+				
+						<div class="aaaa d-flex p-3 back">
+							<i class="fa fa-2x fa-hospital"></i>
+								<p style="font-size:14px; text-align:center;">Next to Aarvy Hospital </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<!--projust------------------------------------------------------------------------------------------------------------------------------------------------>
+<div id="Our project">
+   
+   
+   <div class="container-fluid mt-3">
+		<div class="container head">
+			<h1> Our Other Projects</h1>
+				<p>Insignia Park Other Projects</p>
+			<hr></hr>
+	</div>
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="card">
+							<div class="card-body p-2">
+								<img src="ae.jpg" class="img-fluid">
+					<div class="px-2 mt-1">
+									<h3> Insignia Park </h3>
+										<h5>Residential Plots</h5>
+											<label> ROF proudly presents ROF Insignia Park. Giving youproximity with nature the adorable landscapes of the huge Central Lawn opens upa world of outdoor spaces, while the lush green area conjures up images of anexotic getaway to sooth your senses, it slowly brings you closer to experiencingutmost tranquility.</label>
+												<a href="https://rofinsigniapark.com/1/" target="_blank"><button type="button" class="btn btn-outline-primary">Know More</button></a>
+					</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					<div class="col-lg-4">
+						<div class="card">
+							<div class="card-body p-2">
+								<img src="Mart.jpg" class="img-fluid">
+					<div class="px-2 mt-1">
+									<h3> Insignia Mart </h3>
+										<h5>Commercial Shops</h5>
+											<label>ROF proudly presents ROF Insignia Mart. Giving youproximity with nature the adorable landscapes of the huge Central Lawn opens upa world of outdoor spaces, while the lush green area conjures up images of anexotic getaway to sooth your senses, it slowly brings you closer to experiencingutmost tranquility.
+											<br>
+											
+											</label>
+												<a href="https://rofinsigniapark.com/1/" target="_blank"><button type="button" class="btn btn-outline-primary">Know More</button></a>
+					</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					<div class="col-lg-4">
+						<div class="card">
+							<div class="card-body p-2">
+								<img src="souk.jpg" class="img-fluid">
+					<div class="px-2 mt-1">
+									<h3> Insignia Souk </h3>
+										<h5>SCO Plots</h5>
+											<label>ROF proudly presents ROF Insignia Souk – An epitome of best in Retail, Shopping, Dining & Entertainment experiences in Sector 93, Gurugram. This well-designed complex, with unique 60% open area spaces reserved for landscaping, parking, walkways etc., is located a Central Gurugram.</label>
+												<a href="https://rofinsigniasouk.com/" target="_blank"><button type="button" class="btn btn-outline-primary">Know More</button></a>
+					</div>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+		
+		<!-- floor plan--------------------------------------------------------------------------------------------------------------------------------->
+		
+		<div id="Floor plan">
+						   <div class="container-fluid mt-3">
+	<div class="container head">
+		<h1> Our Floor Plans</h1>
+			<hr></hr>
+	</div>		
+
+
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3">
+							<img src="1 3 t.jpg" class="img-fluid zoom">
+						</div>
+
+						
+						<div class="col-lg-3">
+							<img src="1 3 t.jpg" class="img-fluid zoom">
+						</div>
+						
+						<div class="col-lg-3">
+							<img src="study .jpg" class="img-fluid zoom">
+						</div>
+						
+						<div class="col-lg-3">
+							<img src="1 3 study.jpg" class="img-fluid zoom">
+						</div>
+					</div>
+				</div>
+			</div>
+					
+		
+					
+					   <div class="container-fluid mt-3">
+	<div class="container head">
+		<h1> Location Map</h1>
+			<hr></hr>	
+	<img src="map.jpg" class="img-fluid">
+	</div>
+</div>
+</div>
+
+<!-- fottor------------------------------------------------------------------------------------------------------------------------------------>
+
+<div class="container-fluid centr text-light">
+	<div class="row">
+		<div class="col-lg-2 mt-2">
+			<img src="logo.png" class="img-fluid logo">
+		</div>
+	<div class="col-lg-7 mt-2">
+			<p class="text-light mt-3"> 
+					ROF is an industry pioneer in developing real estate projects ranging from contemporary housing and office spaces to luxrious hotels.
+					<b>RERA No. : RC/REP/HARERA/GGM/710/442/2023/54 dated 17.04.2023 </b></p>
+</div>
+<div class="col-lg-3 mt-2">
+
+	<a href="https://www.facebook.com/ROFGroupOfficial/"><i class="fab fa-facebook-square fa-2x mr-3 text-light"></i></a>
+			
+	<a href="https://www.instagram.com/ROFGroup/"><i class="fab fa-instagram  fa-2x mr-3 text-light"></i></a>
+
+	<a href="https://www.youtube.com/channel/UC8AbMQpDRpQNhWr7UTrvZJw"><img src="youtube.png" height="40px" width="40px" style="margin-bottom:14px;"></i></a>
+
+			<p class="text-light mt-3"> Connect With Us On Our Social media</p>
+					</div>
+						</div>
+
+
+								<hr class="bg-light">
+								© 2021 All Rights Reserved
+								</hr>
+							
+							
+							
+						
+</html>
